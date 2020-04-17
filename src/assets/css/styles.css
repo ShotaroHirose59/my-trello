@@ -1,5 +1,5 @@
 html {
-  background: orange;
+  background: #222222;
   font-family: 'Avenir', Helvetica, Arial, 'system-ui', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,13 +10,13 @@ html {
 }
 
 header {
-  background: orange;
+  background: #222222;
   height: 70px;
-  color: white;
+  color: #ff7597;
   font-style: italic;
-  font-size: 40px;
+  font-size: 55px;
   text-align: left;
-  padding: 20px;
+  padding: 25px;
 }
 
 main {
@@ -28,6 +28,7 @@ main {
 .info-line {
   margin: 20px;
   font-size: 20px;
+  color: #ff7597;
 }
 
 .list-index {
@@ -104,8 +105,8 @@ main {
   background-color: #e0e0e0;
   border-radius: 8px;
   padding: 15px;
-  border: solid #ddd 1px;
-  color: gray;
+  border: solid #ff7597 2px;
+  color: #ff7597;
   vertical-align: top;
 }
 
@@ -116,13 +117,13 @@ main {
 }
 
 .list-title {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   padding: 15px;
 }
 
 .list-counter {
-  color: rgb(0, 140, 255);
+  color: #ff7597;
   padding: 15px;
 }
 
@@ -165,7 +166,7 @@ main {
 }
 
 .body {
-  font-size: 18px;
+  font-size: 20px;
   width: 100%;
   word-wrap: break-word;
 }
