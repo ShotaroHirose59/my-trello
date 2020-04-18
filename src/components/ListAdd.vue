@@ -29,7 +29,7 @@ export default  {
       if (this.isEditing) {
         classList.push('active')
       }
-      if  (this.titleExists) {
+      if (this.titleExists) {
         classList.push('addable')
       }
       return classList
